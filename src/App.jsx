@@ -22,7 +22,13 @@ function App() {
       {/* Mensaje para iOS/Instagram */}
       {isInstagramBrowseriOS() ? (
         <div className="ios-instructions">
-          <h2>⚠️ Abre en Safari para descargar</h2>
+          <h2>Abre en Safari para descargar</h2>
+          <p>Sigue estos pasos:</p>
+            <ol>
+              <li>Toca los 3 puntos (...) arriba a la derecha</li>
+              <li>Selecciona "Abrir en Safari"</li>
+              <li>Vuelve a tocar el botón de descarga</li>
+            </ol>
           <a
             href="https://drive.google.com/uc?export=download&id=1R6Y45wZzDrjl8A_hvgblHt0btZ1JEh1G"
             className="button"
